@@ -1,9 +1,9 @@
 homeassistant:
   # Name of the location where Home Assistant is running
-  name: Home
+  name: The Blue House
   # Location required to calculate the time the sun rises and sets
-  latitude: 42.3059
-  longitude: -71.0859
+  latitude: 42.3143696
+  longitude: -71.1021422
   # Impacts weather/sunrise data (altitude above sea level in meters)
   elevation: 41
   # metric for Metric, imperial for Imperial
@@ -22,7 +22,7 @@ config:
 
 http:
   # Uncomment this to add a password (recommended!)
-  # api_password: PASSWORD
+  # api_password: 
   # Uncomment this if you are using SSL or running in Docker etc
   # base_url: example.duckdns.org:8123
 
