@@ -2,8 +2,8 @@ homeassistant:
   # Name of the location where Home Assistant is running
   name: The Blue House
   # Location required to calculate the time the sun rises and sets
-  latitude: 42.3143696
-  longitude: -71.1021422
+  latitude: !secret home_lattitude
+  longitude: !secret home_longitude 
   # Impacts weather/sunrise data (altitude above sea level in meters)
   elevation: 41
   # metric for Metric, imperial for Imperial
