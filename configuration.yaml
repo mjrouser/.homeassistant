@@ -26,6 +26,10 @@ http:
   # Uncomment this if you are using SSL or running in Docker etc
   # base_url: example.duckdns.org:8123
 
+nest:
+  client_id: !secret nest_id
+  client_secret: !secret nest_secret
+
 # Checks for available updates
 # Note: This component will send some information about your system to
 # the developers to assist with development of Home Assistant.
