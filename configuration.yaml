@@ -30,9 +30,6 @@ nest:
   client_id: !secret nest_id
   client_secret: !secret nest_secret
   
-
-
-
 # Checks for available updates
 # Note: This component will send some information about your system to
 # the developers to assist with development of Home Assistant.
